@@ -5,7 +5,7 @@ function ClassificationItem({ item } : {item: Classification}) {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>{item.title}</Text>
-      <Text style={styles.subtitle}>{item.classification}</Text>
+      <Text style={styles.subtitle}>{item.count}</Text>
     </View>
   );
 }
